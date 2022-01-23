@@ -11,6 +11,11 @@
 .bold {
   font-weight: 700;
 }
+/* added font size */
+.font-size {
+  font-size: 16px;
+}
+
 /* added menu style */
 .menu-style {
   font-size: 16px;
@@ -18,4 +23,12 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: #3e3e3e;
+}
+/* added album button */
+.album-btn {
+  background-color: #3f87f5;
+  color: #fff;
+}
+.album-btn:hover {
+  color: #fff;
 }
