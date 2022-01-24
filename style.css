@@ -27,6 +27,10 @@ h2 {
   font-weight: 500;
   color: #3e3e3e;
 }
+.navigation {
+  height: 80px;
+}
+
 /* added album button */
 .album-btn {
   background-color: #3f87f5;
