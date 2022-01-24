@@ -18,10 +18,10 @@
     />
     <!-- link css  -->
     <link rel="stylesheet" href="style.css" />
-    <title>Conventio center</title>
+    <title>Document</title>
   </head>
   <body>
-    <header class="">
+    <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -63,6 +63,7 @@
         </div>
       </nav>
     </header>
+    <!-- main -->
     <main>
       <!-- slider section -->
 
@@ -184,6 +185,7 @@
         </div>
       </section>
       <!-- our package -->
+
       <section>
         <div class="container">
           <h2 class="text-center font bold my-3">Our package</h2>
@@ -277,55 +279,12 @@
           </div>
         </div>
       </section>
-      <!-- clients review -->
-      <section class="mt-5">
-        <div class="container">
-          <h2 class="bold font text-center">Happy Clients says</h2>
-          <div class="row mt-5 g-5">
-            <div class="col-lg-4 col-md-6">
-              <div class="text-center shadow p-4 rounded-5">
-                <p>
-                  Every two years,leaders in the food service equipment ans
-                  supplies industry come together to showcase their latest
-                  products and highlight the innovations that shape the field
-                </p>
-                <img src="./images/person 1.png" alt="" />
-                <h4>Regina Miles</h4>
-                <p>Banker</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="text-center shadow p-4 rounded-5">
-                <p>
-                  Every year we return to the center of Hospitality,it feels
-                  like a homecoming.our attends,exhibitors and partners know
-                  what to expect when they set foot on the show floor.
-                </p>
-                <img src="./images/person 2.png" alt="" />
-                <h4>Jone Drake</h4>
-                <p>Doctor</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="text-center shadow p-4 rounded-5">
-                <p>
-                  in this 14th year the grainger show brought together more than
-                  12,000 people for three full days at the orange country
-                  convention center.1 metting destination in the country
-                </p>
-                <img src="./images/person 3.png" alt="" />
-                <h4>Cret Yater</h4>
-                <p>Engineer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <!-- our location -->
       <section class="mt-5">
         <div class="container">
           <div class="row g-4">
-            <div class="col-md-6">
+            <div class="col-lg-5 col-md-12">
               <div
                 class="d-flex flex-column justify-content-center align-items-start h-100"
               >
@@ -338,20 +297,52 @@
                 <button class="location-btn">Book Now</button>
               </div>
             </div>
-            <div class="col-md-6">
-              <iframe
-                class="w-100"
-                style="height: 450px"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29424.957558925245!2d89.55919515!3d22.7980283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1642969173547!5m2!1sen!2sbd"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
-            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="position-relative">
+                <iframe
+                  class="w-100 img-fluid"
+                  style="height: 450px"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29424.957558925245!2d89.55919515!3d22.7980283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1642969173547!5m2!1sen!2sbd"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+
+                <div class="position-absolute top-0 end-0">
+                  <div class="toast show">
+                    <div class="toast-header">
+                      <strong class="me-auto text-muted bold">Google</strong>
+                    </div>
+                    <div class="toast-body">
+                      <p class="font">
+                        This page can't load Google Maps correctly.
+                      </p>
+                    </div>
+                    <div
+                      class="toast-fotter d-flex justify-content-between mx-3 pb-3"
+                    >
+                      <a
+                        class="text-muted"
+                        target="-blank"
+                        href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&utm_medium=degraded&utm_campaign=billing#api-key-and-billing-errors"
+                        >Do you own this website</a
+                      >
+                      <button
+                        type="button"
+                        class="btn toast-btn"
+                        data-bs-dismiss="toast"
+                      >
+                        ok
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- ask question -->
       <section class="my-5">
         <div class="container">
@@ -492,29 +483,40 @@
         </div>
       </section>
     </main>
+
+    <!-- footer -->
     <footer class="p-5 mt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6 sm-order-2">
-            <div class="d-flex justify-content-between align-items-center h-100">
+            <div
+              class="d-flex justify-content-between align-items-center h-100"
+            >
               <p class="font font-size text-white">
                 © 2020 bike. All rights reserved
               </p>
             </div>
           </div>
           <div class="col-md-6">
-            
-          <div class="text-end">
-            <p class="font-size text-white me-5">Get The App</p>
-              <a target="_blank" class="img-fluid" href="https://www.apple.com/app-store/">
+            <div class="text-end">
+              <p class="font-size text-white me-5">Get The App</p>
+              <a
+                target="_blank"
+                class="img-fluid"
+                href="https://www.apple.com/app-store/"
+              >
                 <img class="img-fluid" src="./images/app-store.png" alt="" />
               </a>
-              <br>
+              <br />
               <a
                 class="mt-3 img-fluid"
                 href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"
               >
-                <img class="img-fluid mt-3" src="./images/google-play.png" alt="" />
+                <img
+                  class="img-fluid mt-3"
+                  src="./images/google-play.png"
+                  alt=""
+                />
               </a>
             </div>
           </div>
@@ -527,5 +529,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
