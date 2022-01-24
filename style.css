@@ -81,3 +81,22 @@ h2 {
   border-radius: 50%;
   border-radius: 50%;
 }
+/* location button */
+.location-btn {
+  background-color: rgba(63, 135, 245, 1);
+  color: #fff;
+  border: none;
+  padding: 15px 51px;
+  border-radius: 10px;
+  border: 5px solid;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.7s;
+}
+.location-btn:hover {
+  transform: scale(1.1);
+}
+/* fotter */
+footer {
+  background-color: #0b0d17;
+}
