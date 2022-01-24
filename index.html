@@ -18,7 +18,7 @@
     />
     <!-- link css  -->
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Convention center</title>
   </head>
   <body>
     <header class="sticky-top">
@@ -160,26 +160,32 @@
       <section class="py-5">
         <div class="container my-5">
           <div class="row gy-3">
-            <div class="col-md-6">
-              <img class="img-fluid" src="./images/wedding.png" alt="" />
-            </div>
-            <div class="col-md-6">
-              <div
-                class="d-flex flex-column justify-content-center align-items-start h-100"
-              >
-                <h2 class="font bold">Every moment is Precious</h2>
-                <p class="bold font font-size my-1">
-                  even the ones behind me that I often reflect upon with a
-                  <br />
-                  reserved smile. However…I seldom look back, only forward
-                  <br />
-                  in anticipation ...
-                </p>
-                <button type="button" class="btn album-btn">
-                  Explore our album
-                  <span><img src="./icons/arrow-forward 1.svg" alt="" /></span>
-                </button>
+            <div class="col-md-6 order-md-2">
+              <div class="d-flex flex-column justify-content-center h-100">
+                <div>
+                  <h2 class="font bold">Every moment is Precious</h2>
+                  <p class="bold font font-size my-1">
+                    even the ones behind me that I often reflect upon with a
+                    <br />
+                    reserved smile. However…I seldom look back, only forward
+                    <br />
+                    in anticipation ...
+                  </p>
+                </div>
+                <div>
+                  <div>
+                    <button type="button" class="btn album-btn">
+                      Explore our album
+                      <span
+                        ><img src="./icons/arrow-forward 1.svg" alt=""
+                      /></span>
+                    </button>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="col-md-6 order-md-1">
+              <img class="img-fluid" src="./images/wedding.png" alt="" />
             </div>
           </div>
         </div>
@@ -284,10 +290,10 @@
       <section class="mt-5">
         <div class="container">
           <div class="row g-4">
-            <div class="col-lg-5 col-md-12">
-              <div
-                class="d-flex flex-column justify-content-center align-items-start h-100"
-              >
+            <div
+              class="col-lg-5 col-md-12 d-flex justify-content-center align-items-center"
+            >
+              <div class="">
                 <h1 class="font bold">Let's Get Planning</h1>
                 <p class="font font-size">
                   We'd love to hear your event. Fill out our Event Enquiries
@@ -297,6 +303,7 @@
                 <button class="location-btn">Book Now</button>
               </div>
             </div>
+
             <div class="col-lg-7 col-md-12">
               <div class="position-relative">
                 <iframe
@@ -487,19 +494,10 @@
     <!-- footer -->
     <footer class="p-5 mt-5">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 sm-order-2">
-            <div
-              class="d-flex justify-content-between align-items-center h-100"
-            >
-              <p class="font font-size text-white">
-                © 2020 bike. All rights reserved
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="text-end">
-              <p class="font-size text-white me-5">Get The App</p>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-6 col-sm-12 order-md-last text-center">
+            <div>
+              <p class="font-size text-white">Get The App</p>
               <a
                 target="_blank"
                 class="img-fluid"
@@ -519,6 +517,11 @@
                 />
               </a>
             </div>
+          </div>
+          <div class="col-md-6 col-sm-12 order-md-first gy-3">
+            <p class="font font-size text-white text-center">
+              © 2020 bike. All rights reserved
+            </p>
           </div>
         </div>
       </div>
