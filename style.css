@@ -41,6 +41,7 @@ h2 {
 }
 .slider-img img {
   opacity: 0.5;
+  z-index: 99;
 }
 /* added album button */
 .album-btn {
