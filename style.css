@@ -104,7 +104,7 @@ h2 {
 footer {
   background-color: #0b0d17;
 }
-/* toast btn */
-.toast-btn {
-  border: 2px solid gray;
+/* toast border */
+.toast-border {
+  border-left: 5px solid rgba(63, 135, 245, 1);
 }

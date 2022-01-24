@@ -160,7 +160,30 @@
       <section class="py-5">
         <div class="container my-5">
           <div class="row gy-3">
-            <div class="col-md-6 order-md-2">
+            <div class="col-md-6 order-md-2 position-relative">
+              <div class="position-absolute top-0 end-0">
+                <div
+                  class="toast show"
+                  role="alert"
+                  aria-live="assertive"
+                  aria-atomic="true"
+                >
+                  <div class="toast-header toast-border">
+                    <img
+                      src="./icons/Vector.svg"
+                      class="rounded me-2"
+                      alt="..."
+                    />
+                    <strong class="me-auto">20% on next booking</strong>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="toast"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                </div>
+              </div>
               <div class="d-flex flex-column justify-content-center h-100">
                 <div>
                   <h2 class="font bold">Every moment is Precious</h2>
@@ -305,7 +328,7 @@
             </div>
 
             <div class="col-lg-7 col-md-12">
-              <div class="position-relative">
+              <div>
                 <iframe
                   class="w-100 img-fluid"
                   style="height: 450px"
@@ -314,36 +337,6 @@
                   allowfullscreen=""
                   loading="lazy"
                 ></iframe>
-
-                <div class="position-absolute top-0 end-0">
-                  <div class="toast show">
-                    <div class="toast-header">
-                      <strong class="me-auto text-muted bold">Google</strong>
-                    </div>
-                    <div class="toast-body">
-                      <p class="font">
-                        This page can't load Google Maps correctly.
-                      </p>
-                    </div>
-                    <div
-                      class="toast-fotter d-flex justify-content-between mx-3 pb-3"
-                    >
-                      <a
-                        class="text-muted"
-                        target="-blank"
-                        href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&utm_medium=degraded&utm_campaign=billing#api-key-and-billing-errors"
-                        >Do you own this website</a
-                      >
-                      <button
-                        type="button"
-                        class="btn toast-btn"
-                        data-bs-dismiss="toast"
-                      >
-                        ok
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -520,7 +513,7 @@
           </div>
           <div class="col-md-6 col-sm-12 order-md-first gy-3">
             <p class="font font-size text-white text-center">
-              © 2020 bike. All rights reserved
+              © 2022 bike. All rights reserved Shariar
             </p>
           </div>
         </div>
