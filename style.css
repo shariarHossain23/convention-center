@@ -30,7 +30,18 @@ h2 {
 .navigation {
   height: 80px;
 }
-
+/* slider btn */
+.slider-btn {
+  background-color: #fff;
+  color: #3f87f5;
+}
+/* slider img */
+.slider-img {
+  background-color: rgba(0, 0, 0, 2);
+}
+.slider-img img {
+  opacity: 0.5;
+}
 /* added album button */
 .album-btn {
   background-color: #3f87f5;
